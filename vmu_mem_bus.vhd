@@ -15,6 +15,16 @@ package memBus is
 		dataOut 	: std_logic_vector(7 downto 0);
 	end record;
 
+	type VmuFlashBusIn is record
+		writeEn 	: std_logic;
+		address 	: std_logic_vector(8 downto 0);
+		dataIn 		: std_logic_vector(8 downto 0);
+	end record;
+
+	type VmuFlashBusOut is record
+		dataOut 	: std_logic_vector(8 downto 0);
+	end record;
+
 end package;
 
 
@@ -26,12 +36,13 @@ use work.memBus.all;
 entity VmuMemoryMappedRegister is
 	generic (
 		BASE_ADDR	: std_logic_vector(7 downto 0);
-		COUNT		: integer := 1
+		COUNT		: integer := 1;
+		SIZE		: integer := 8
 	);
 	port (
 		memBusIn	: in VmuMemoryBusIn;
 		memBusOut	: out VmuMemoryBusOut;
-		regSignal	: inout VmuMemMappedRegRange(COUNT-1 downto 0)(7 downto 0)
+		regSignal	: inout VmuMemMappedRegRange(COUNT-1 downto 0)(SIZE-1 downto 0)
 	);
 end entity;
 
