@@ -21,9 +21,9 @@ V_]JebV0PZKQo5oBbfJMZ53
 !s100 nn:QaV:C?J1daH5[:l??l1
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1493023391
+Z7 !s110 1493024937
 !i10b 1
-Z8 !s108 1493023391.000000
+Z8 !s108 1493024937.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_cpu.vhd|
 Z10 !s107 C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_cpu.vhd|
 !i113 1
@@ -65,11 +65,11 @@ R6
 33
 R7
 !i10b 1
-R8
-Z16 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_mem_bus.vhd|
-Z17 !s107 C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_mem_bus.vhd|
+Z16 !s108 1493024936.000000
+Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_mem_bus.vhd|
+Z18 !s107 C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_mem_bus.vhd|
 !i113 1
-Z18 o-work work -2008 -explicit
+Z19 o-work work -2008 -explicit
 R12
 Pmemmap
 R0
@@ -84,9 +84,9 @@ VhB`@R_Y<9OZF5@j[?`F3D2
 !s100 JldZ2492G>5V=2QHA4k]b3
 R6
 32
-R7
+Z20 !s110 1493024936
 !i10b 1
-R8
+R16
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_mem_map.vhd|
 !s107 C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_mem_map.vhd|
 !i113 1
@@ -105,9 +105,9 @@ VgmABQD1VHcD[39gfaZeZW0
 !s100 ?kV;S[jzfDcbF2<9_9^?Z3
 R6
 32
-R7
+R20
 !i10b 1
-R8
+R16
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_sfr.vhd|
 !s107 C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_sfr.vhd|
 !i113 1
@@ -115,15 +115,15 @@ R11
 R12
 Evmucpu
 R2
-Z19 DPx4 work 3 sfr 0 22 gmABQD1VHcD[39gfaZeZW0
-Z20 DPx4 work 6 memmap 0 22 hB`@R_Y<9OZF5@j[?`F3D2
-Z21 DEx4 work 23 vmumemorymappedregister 0 22 5FMfR_FOG]UbTDeWk<>bE0
-Z22 DPx4 work 8 instrset 0 22 dajecLQcOYbHno=f=FSTg0
-Z23 DPx4 work 3 cpu 0 22 _]JebV0PZKQo5oBbfJMZ53
-Z24 DPx4 work 6 membus 0 22 mb]QX0:@QDDl3a=RW@dKX2
-Z25 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z26 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z27 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z21 DPx4 work 3 sfr 0 22 gmABQD1VHcD[39gfaZeZW0
+Z22 DPx4 work 6 memmap 0 22 hB`@R_Y<9OZF5@j[?`F3D2
+Z23 DEx4 work 23 vmumemorymappedregister 0 22 5FMfR_FOG]UbTDeWk<>bE0
+Z24 DPx4 work 8 instrset 0 22 dajecLQcOYbHno=f=FSTg0
+Z25 DPx4 work 3 cpu 0 22 _]JebV0PZKQo5oBbfJMZ53
+Z26 DPx4 work 6 membus 0 22 mb]QX0:@QDDl3a=RW@dKX2
+Z27 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z28 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z29 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R0
 R1
 R3
@@ -144,17 +144,17 @@ R10
 R11
 R12
 Abehav
-R19
-R20
+R21
 R22
-R23
 R24
 R25
 R26
 R27
+R28
+R29
 R0
 R1
-Z28 DEx4 work 6 vmucpu 0 22 FUI8E96z@8=zSLX<cDF^J1
+Z30 DEx4 work 6 vmucpu 0 22 FUI8E96z@8=zSLX<cDF^J1
 l110
 L77
 VSn@i587A^6PLQlLgc@SST1
@@ -170,47 +170,47 @@ R10
 R11
 R12
 Evmudevice
-Z29 w1493023300
-Z30 DEx4 work 10 vmuioports 0 22 h:XnEYoza`WQ3]NMcD;>X1
-Z31 DEx4 work 7 vmulcdc 0 22 V@D<3JADifL=CabTP7_[B2
-Z32 DEx4 work 7 vmuwram 0 22 67iBNTVYHdbJ9:9`zGBcf1
-R19
-R20
+Z31 w1493023300
+Z32 DEx4 work 10 vmuioports 0 22 h:XnEYoza`WQ3]NMcD;>X1
+Z33 DEx4 work 7 vmulcdc 0 22 V@D<3JADifL=CabTP7_[B2
+Z34 DEx4 work 7 vmuwram 0 22 67iBNTVYHdbJ9:9`zGBcf1
+R21
 R22
-R23
+R24
 R25
-R26
 R27
 R28
-R24
+R29
+R30
+R26
 R0
 R1
 R3
-Z33 8C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_device.vhd
-Z34 FC:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_device.vhd
+Z35 8C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_device.vhd
+Z36 FC:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_device.vhd
 l0
 L10
 VUUEFUDiQG=5=LYXnf]iPN0
 !s100 J22lGGe=z9HMcl<eg9E?g0
 R6
 32
-Z35 !s110 1493023392
+R7
 !i10b 1
-Z36 !s108 1493023392.000000
+R8
 Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_device.vhd|
 Z38 !s107 C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_device.vhd|
 !i113 1
 R11
 R12
 Artl
-R19
-R20
+R21
 R22
-R23
-R25
-R26
-R27
 R24
+R25
+R27
+R28
+R29
+R26
 R0
 R1
 Z39 DEx4 work 9 vmudevice 0 22 UUEFUDiQG=5=LYXnf]iPN0
@@ -220,9 +220,9 @@ Z40 V<icU9f[Q7]0El6hAPAzWJ3
 Z41 !s100 =;@_DLe0^=So39`5Hm`oF3
 R6
 32
-R35
+R7
 !i10b 1
-R36
+R8
 R37
 R38
 !i113 1
@@ -232,7 +232,7 @@ Evmuflash
 Z42 w1492594326
 R0
 R1
-R24
+R26
 R3
 Z43 8C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_flash.vhd
 Z44 FC:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_flash.vhd
@@ -253,7 +253,7 @@ R12
 Artl
 R0
 R1
-R24
+R26
 DEx4 work 8 vmuflash 0 22 COSZJ28kUFo45bo53X0IU1
 l14
 L13
@@ -271,10 +271,10 @@ R11
 R12
 Evmuinstrbusswitch
 Z49 w1492942195
-R24
-R25
 R26
 R27
+R28
+R29
 R0
 R1
 R3
@@ -295,10 +295,10 @@ R10
 R11
 R12
 Artl
-R24
-R25
 R26
 R27
+R28
+R29
 R0
 R1
 DEx4 work 17 vmuinstrbusswitch 0 22 W_aBJK=hO73VU`o^gZ:DS3
@@ -317,10 +317,10 @@ R10
 R11
 R12
 Evmuioports
-Z52 w1492594742
+Z52 w1493024834
 R0
 R1
-R24
+R26
 R3
 Z53 8C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_io_ports.vhd
 Z54 FC:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_io_ports.vhd
@@ -330,9 +330,9 @@ Vh:XnEYoza`WQ3]NMcD;>X1
 !s100 iN3O@bm3k5QTgH3n>1UVC0
 R6
 32
-R35
+R7
 !i10b 1
-R36
+R8
 Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_io_ports.vhd|
 Z56 !s107 C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_io_ports.vhd|
 !i113 1
@@ -341,27 +341,27 @@ R12
 Artl
 R0
 R1
-R24
-R30
-l13
+R26
+R32
+l15
 L12
-VOa;MJ=@<2ebj9OHPHElOB0
-!s100 <N7dHIA`3DK<o54bm13^N3
+V_amSBHYCejN:16^MhWAai3
+!s100 G^4m<E[4>M<[e9Pf_f3dF2
 R6
 32
-R35
+R7
 !i10b 1
-R36
+R8
 R55
 R56
 !i113 1
 R11
 R12
 Evmulcdc
-Z57 w1492594505
+Z57 w1493024794
 R0
 R1
-R24
+R26
 R3
 Z58 8C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_lcdc.vhd
 Z59 FC:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_lcdc.vhd
@@ -371,9 +371,9 @@ VV@D<3JADifL=CabTP7_[B2
 !s100 ^98GF1?@]ionjB0a@BK652
 R6
 32
-R35
+R7
 !i10b 1
-R36
+R8
 Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_lcdc.vhd|
 Z61 !s107 C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_lcdc.vhd|
 !i113 1
@@ -382,17 +382,17 @@ R12
 Artl
 R0
 R1
-R24
-R31
-l13
+R26
+R33
+l16
 L12
-VH<Xd>^JFGe:XAe242<2T[1
-!s100 ;aWjYBgLDV8W`f]8JiGZ80
+V9jhQZ<`nnce<:@ZFD?P<:2
+!s100 FG8Kn6Gd;_J1`L_zUi7X53
 R6
 32
-R35
+R7
 !i10b 1
-R36
+R8
 R60
 R61
 !i113 1
@@ -400,8 +400,8 @@ R11
 R12
 Evmumemorymappedregister
 R13
-R24
-R25
+R26
+R27
 R0
 R1
 R3
@@ -415,18 +415,18 @@ R6
 33
 R7
 !i10b 1
-R8
 R16
 R17
-!i113 1
 R18
+!i113 1
+R19
 R12
 Artl
-R24
-R25
+R26
+R27
 R0
 R1
-R21
+R23
 l91
 L90
 VamDDe9Hj9F2oInFB5kL342
@@ -435,16 +435,16 @@ R6
 33
 R7
 !i10b 1
-R8
 R16
 R17
-!i113 1
 R18
+!i113 1
+R19
 R12
 Evmumemorymappedregisterrange
 R13
-R24
-R25
+R26
+R27
 R0
 R1
 R3
@@ -458,15 +458,15 @@ R6
 33
 R7
 !i10b 1
-R8
 R16
 R17
-!i113 1
 R18
+!i113 1
+R19
 R12
 Artl
-R24
-R25
+R26
+R27
 R0
 R1
 DEx4 work 28 vmumemorymappedregisterrange 0 22 c:oMYM5a`i3Cm2Og09bYV1
@@ -478,17 +478,17 @@ R6
 33
 R7
 !i10b 1
-R8
 R16
 R17
-!i113 1
 R18
+!i113 1
+R19
 R12
 Evmuram
 Z62 w1492592256
 R0
 R1
-R24
+R26
 R3
 Z63 8C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_ram.vhd
 Z64 FC:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_ram.vhd
@@ -509,7 +509,7 @@ R12
 Artl
 R0
 R1
-R24
+R26
 DEx4 work 6 vmuram 0 22 mWFWEnP0X9UWTbRfUK^O33
 l13
 L12
@@ -529,7 +529,7 @@ Evmurom
 Z69 w1492594335
 R0
 R1
-R24
+R26
 R3
 Z70 8C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_rom.vhd
 Z71 FC:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_rom.vhd
@@ -550,7 +550,7 @@ R12
 Artl
 R0
 R1
-R24
+R26
 DEx4 work 6 vmurom 0 22 LQlXYNbX:e;OTc_558one2
 l13
 L12
@@ -567,10 +567,10 @@ R73
 R11
 R12
 Evmuwram
-Z74 w1492594351
+Z74 w1493024752
 R0
 R1
-R24
+R26
 R3
 Z75 8C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_wram.vhd
 Z76 FC:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_wram.vhd
@@ -580,9 +580,9 @@ V67iBNTVYHdbJ9:9`zGBcf1
 !s100 WlTj3Zh4?Wlk?>N3Azi^@0
 R6
 32
-R35
+R7
 !i10b 1
-R36
+R8
 Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_wram.vhd|
 Z78 !s107 C:/Users/Falco/Documents/Dev/EVMU_FPGA/vmu_wram.vhd|
 !i113 1
@@ -591,17 +591,17 @@ R12
 Artl
 R0
 R1
-R24
-R32
-l13
+R26
+R34
+l14
 L12
-VVz6`04AgZ^`^=`UFY?6bF0
-!s100 j?oYTn2YPEgSh>hRAN1oF0
+Vge7d[O?_W9ARQB=9_BC0e2
+!s100 LcGe3?NDLW8FC80:U?l113
 R6
 32
-R35
+R7
 !i10b 1
-R36
+R8
 R77
 R78
 !i113 1

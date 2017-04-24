@@ -9,7 +9,6 @@ use work.VmuIoPorts;
 
 entity VmuDevice is 
 		
-
 end entity;
 
 architecture rtl of VmuDevice is 

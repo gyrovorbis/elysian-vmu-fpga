@@ -10,6 +10,7 @@ entity VmuWram is
 end entity;
 
 architecture rtl of VmuWram is 
+	--TODO! This is only used for a certain mode when plugged into the controller.
 begin
 
 end architecture;
