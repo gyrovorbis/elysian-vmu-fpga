@@ -3,9 +3,6 @@ use IEEE.STD_LOGIC_1164.all;
 
 use work.memBus.all;
 use work.VmuCpu;
-use work.VmuRam;
-use work.VmuFlash;
-use work.VmuRom;
 use work.VmuWram;
 use work.VmuLcdc;
 use work.VmuIoPorts;
@@ -27,21 +24,6 @@ begin
 	cpu: entity VmuCpu port map (
 		clk			=> clock,
 		reset		=> cpuReset,
-		memBusIn 	=> memBusIn,
-		memBusOut 	=> memBusOut
-	);
-
-	ram: entity VmuRam port map (
-		memBusIn 	=> memBusIn,
-		memBusOut 	=> memBusOut
-	);
-
-	rom: entity VmuRom port map (
-		memBusIn 	=> memBusIn,
-		memBusOut 	=> memBusOut
-	);
-
-	flash: entity VmuFlash port map (
 		memBusIn 	=> memBusIn,
 		memBusOut 	=> memBusOut
 	);
